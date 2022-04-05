@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We set a variable called name and its value to "dane"
+// We set a variable called name and its value to "Dane"
 // We check if the name is 'Mary' if true we console.log 'Hi, Mary!'
 // if not Mary we console.log 'How do you do?'
 // We console.log "How do you do?"
@@ -46,9 +46,9 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We set an empty variable named secret
-// We set variable named code equal to 123
-// We check if code is exactly 123, if so we make the variable secret equal to 'super' and variable code is equal to itself multiplied by 2.
-// We check if code is greater than 250, if true we set variable secret to 'duper'
+// We set the variable named code equal to 123
+// We check if code is exactly 123, if true we set secret equal to 'super' and set code equal to itself multiplied by 2.
+// We check if code is greater than 250, if true we set secret to 'duper'
 // We then console.log "super"
 
 //CODE
@@ -132,13 +132,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX - colorOne should equal 'blue' and colorTwo should equal 'red'
+// FIX - Both variables are set to wrong values
+//Should be let colorOne= 'blue';
+//          let colorTwo= 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-// FIX - need to add colorTwo = 'purple'; underneath colorOne = 'purple';
+// FIX - missing line to change colorTwo to purple
 if (mix === true) {
   colorOne = 'purple';
+//Should have colorTwo = 'purple';  
 }
 */
 
@@ -148,8 +151,11 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//Fix- Starting with two variables that could change we would need to swap out const for let
+//Should be let time = 4;
 const time = 4;
-// FIX - We want to check if both are true not just one. Need to replace || with &&
+// FIX - We want to check if both are true not just one. 
+//Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,7 +168,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-// FIX - We want to check if age >= minAge so we need to switch those then change if console.log to 'enter' and else console.log to 'no entry'.
+// FIX - We want to check if age >= minAge so we need to switch those then change if console.log to 'enter' and else console.log to 'no entry'. Fix is in single line comments below
+//if (age >= minAge){
+//  console.log('enter');
+//}else {
+//  console.log('no entry);
+//}
+           
 if(minAge <= age) {
   console.log('no entry');
 } else {
