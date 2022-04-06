@@ -28,7 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We set a variable called name and its value to "Dane"
 // We check if the name is 'Mary' if true we console.log 'Hi, Mary!'
-// if not Mary we console.log 'How do you do?'
+// if false we console.log 'How do you do?'
 // We console.log "How do you do?"
 
 //CODE
@@ -71,8 +71,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create 3 variables and give them values. First we name isStudent and we set that variable to boolean true. Second we name aged and is set to 34, Third we named zip and thats set to 55407;
-// Then we check if isStudent true and if zip is less than 80000 if both are true we console.log "You're a student on the West Coast!" if both are not true we then check if isStudent is equal to
+// We create 3 variables and give them values. First we create isStudent and we set that variable to a boolean true. Second we create age and is set to 34, Third we create zip and thats set to 55407;
+// Then we check if isStudent true and if zip is greater than 80000 if both are true we console.log "You're a student on the West Coast!" if either are false we then check if isStudent is equal to
 // false or age is greater than 30. If either of those are true we console.log "What are your hobbies" if both are false we check if isStudent is equal to true, if so we console.log "Welcome to Prime"
 // if false we console.log "how about the weather?"
 //
